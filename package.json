@@ -1,0 +1,22 @@
+{
+  "name": "popartdevtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovangrbic6/popartDevTest.git"
+  },
+  "author": "Jovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jovangrbic6/popartDevTest/issues"
+  },
+  "homepage": "https://github.com/jovangrbic6/popartDevTest#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}

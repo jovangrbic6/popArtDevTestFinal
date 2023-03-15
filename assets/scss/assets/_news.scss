@@ -1,0 +1,130 @@
+@import './root';
+.newsSection {
+  padding: 316px 287px 0;
+}
+
+.newsSection__heading {
+  width: 100%;
+  max-width: 619px;
+}
+
+.newsSection__heading-text {
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  margin-bottom: 47px;
+}
+
+.newsSection__news {
+  display: flex;
+}
+
+.newsSection__news-content:first-child {
+  margin-right: 90px;
+}
+
+.newsSection__news-content {
+  width: 100%;
+  max-width: 622px;
+}
+
+.newsSection__news-content img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.newsSection__news-content p {
+  margin-top: 10px;
+}
+
+.newsSection__news-content a {
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.newsSection__news-content p a:hover {
+  color: $pink;
+}
+
+.newsSection__news-content p:last-child {
+  margin-top: 30px;
+}
+
+.newsSection__button {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 49.5px;
+  background: $yellow;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.newsSection__button:hover {
+  background: $pink;
+  color: $white;
+}
+
+.newsSection__button:hover:after {
+  border-left: 15px $pink solid;
+}
+.newsSection__button:hover:before {
+  border-right: 15px $pink solid;
+}
+
+.newsSection__button:after,
+.newsSection__button:before {
+  position: absolute;
+  content: '';
+  z-index: 1;
+  top: 0;
+  width: 0px;
+  background: $primary-color;
+  border-top: 25px transparent solid;
+  border-bottom: 25px transparent solid;
+  transition: 0.3s all;
+}
+
+.newsSection__button:before {
+  left: 0;
+  border-right: 15px $yellow solid;
+}
+.newsSection__button:after {
+  right: 0;
+  border-left: 15px $yellow solid;
+}
+
+@media screen and (max-width: 1600px) {
+  .newsSection {
+    padding: 316px 143px 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .newsSection {
+    padding: 316px 90px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .newsSection {
+    padding: 75px 50px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .newsSection__news {
+    flex-direction: column;
+  }
+  .newsSection__news-content:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .newsSection {
+    padding: 50px 25px 0;
+  }
+}

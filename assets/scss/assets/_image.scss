@@ -1,0 +1,31 @@
+.imageSection {
+  padding: 0 287px;
+}
+
+.imageSection__image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+  .imageSection {
+    padding: 0 143px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .imageSection {
+    padding: 0 90px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imageSection {
+    padding: 0 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageSection {
+    padding: 0 25px;
+  }
+}

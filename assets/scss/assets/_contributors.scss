@@ -1,0 +1,120 @@
+@import './root';
+.contributorsSection {
+  padding: 380px 287px 0;
+}
+
+.contributorsSection__heading {
+  margin: auto;
+  text-transform: uppercase;
+  margin-bottom: 57px;
+}
+
+.contributorsSection__grid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 98px;
+  row-gap: 66px;
+}
+
+.contributorsSection__grid-item p:first-child {
+  letter-spacing: -0.02em;
+}
+
+.contributorsSection__grid-item p:last-child {
+  margin-top: 3px;
+  letter-spacing: -0.04em;
+}
+
+.contributorsSection__grid-itemImage {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.contributorsSection__subText {
+  margin-top: 70px;
+  position: relative;
+}
+
+.contributorsSection__subText-text {
+  max-width: 687px;
+  width: 100%;
+}
+
+.contributorsSection__grid-itemButton {
+  position: relative;
+  width: 248px;
+  height: 49.5px;
+  background: $yellow;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s all;
+}
+
+.contributorsSection__grid-itemButton:hover {
+  background: $pink;
+  color: $white;
+}
+
+.contributorsSection__grid-itemButton:after,
+.contributorsSection__grid-itemButton:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: 0px;
+  background: $primary-color;
+  border-top: 25px transparent solid;
+  border-bottom: 25px transparent solid;
+  transition: 0.3s all;
+}
+
+.contributorsSection__grid-itemButton:hover:after {
+  border-left: 23px $pink solid;
+}
+.contributorsSection__grid-itemButton:hover:before {
+  border-right: 23px $pink solid;
+}
+
+.contributorsSection__grid-itemButton:before {
+  left: 0;
+  border-right: 23px $yellow solid;
+}
+.contributorsSection__grid-itemButton:after {
+  right: 0;
+  border-left: 23px $yellow solid;
+}
+
+@media screen and (max-width: 1600px) {
+  .contributorsSection {
+    padding: 380px 143px 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contributorsSection {
+    padding: 190px 90px 0;
+  }
+  .contributorsSection__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contributorsSection {
+    padding: 190px 50px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contributorsSection {
+    text-align: center;
+  }
+  .contributorsSection__grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 98px;
+    row-gap: 66px;
+  }
+}

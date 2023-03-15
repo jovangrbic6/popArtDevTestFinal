@@ -1,0 +1,335 @@
+.heroSection__decoration-yellowHeptagon {
+  position: absolute;
+  top: 90px;
+  left: 47%;
+  animation: rotation 25s linear infinite;
+}
+
+.heroSection__decoration-yellowOctagon {
+  position: absolute;
+  bottom: 0;
+  left: 13.5rem;
+}
+
+.heroSection__decoration-yellowHexagonDetailed {
+  position: absolute;
+  left: 35%;
+  bottom: 29%;
+  animation: rotation 25s linear infinite;
+}
+
+.heroSection__decoration-arrowsIcon {
+  position: absolute;
+  bottom: 138px;
+  left: 45%;
+}
+
+.heroSection__decoration-redCircle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.heroSection__decoration-blueOctagon {
+  position: absolute;
+  top: 0;
+  right: 1%;
+}
+
+.whatIsDecoration__arrowsIcon {
+  position: absolute;
+  right: 25%;
+  top: 431px;
+}
+
+.whatIsDecoration__yellowNineCornerDetailed {
+  position: absolute;
+  right: 6%;
+  top: 402px;
+  animation: rotation 25s linear infinite;
+  animation-direction: reverse;
+}
+
+.whatIsDecoration__orangeOctagon {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+}
+
+.whyUsDecoration__blueOctagonLarge {
+  position: absolute;
+  right: 0;
+  top: 347px;
+}
+
+.whyUsDecoration__yellowHexagonConnected {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(calc(29% + 20px), calc(83% + 20px));
+}
+
+.whyUsDecoration__yellowOctagon {
+  position: absolute;
+  top: 25px;
+  right: 140px;
+}
+
+.whyUsDecoration__yellowOctagonDetailed {
+  position: absolute;
+  top: 131px;
+  left: 124px;
+  animation: rotation 25s linear infinite;
+}
+
+.whyUsDecoration__arrowsIcon {
+  position: absolute;
+  left: 50%;
+  top: 329px;
+}
+
+.testemonialDecoration__founderHexagons {
+  position: absolute;
+  bottom: 0;
+  left: 377px;
+}
+
+.testemonialDecoration__yellowHexagon {
+  position: absolute;
+  right: 131px;
+  top: 77px;
+}
+
+.contributorsDecoration__redCircle {
+  position: absolute;
+  left: 24px;
+  top: 0;
+}
+
+.contributorsDecoration__arrowsIcon {
+  position: absolute;
+  right: 506px;
+  top: 256px;
+}
+
+.contributorsDecoration__yellowHexagonDetailed {
+  position: absolute;
+  top: 72px;
+  right: 92px;
+  animation: rotation 25s linear infinite;
+}
+
+.introductionDecoration__yellowNineCornerDetailed {
+  position: absolute;
+  left: 131px;
+  top: 121px;
+  animation: rotation 20s linear infinite;
+  animation-direction: reverse;
+}
+
+.introductionDecoration__yellowHeptagon {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+
+.introductionDecoration__orangeOctagon {
+  position: absolute;
+  top: 11px;
+  right: 30px;
+}
+
+.newsDecoration__blueOctagon {
+  position: absolute;
+  top: 136px;
+  left: 19px;
+}
+
+.newsDecoration__arrowsIcon {
+  position: absolute;
+  top: 237px;
+  left: 55%;
+}
+
+.newsDecoration__yellowOctagonDetailed {
+  position: absolute;
+  right: 121px;
+  top: 69px;
+  animation: rotation 25s linear infinite;
+}
+
+.newsDecoration__yellowNineCornerDetailed {
+  position: absolute;
+  top: 0;
+  left: 121px;
+  animation: rotation 20s linear infinite;
+  animation-direction: reverse;
+}
+
+.newsDecoration__arrowsIcon-footer {
+  position: absolute;
+  top: 49px;
+  right: 389px;
+}
+
+.footerDecoration__hexagon {
+  position: absolute;
+  right: 266px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .footerDecoration__hexagon {
+    right: 160px;
+  }
+  .newsDecoration__yellowNineCornerDetailed {
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .whyUsDecoration__blueOctagonLarge {
+    display: none;
+  }
+  .introductionDecoration__yellowNineCornerDetailed {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .footerDecoration__hexagon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .heroSection__decoration-yellowHexagonDetailed {
+    left: 15%;
+  }
+
+  .introductionDecoration__yellowNineCornerDetailed {
+    left: 60px;
+  }
+  .newsDecoration__yellowOctagonDetailed {
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .introductionDecoration__yellowHeptagon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .heroSection__decoration-yellowHexagonDetailed {
+    right: 15%;
+    left: unset;
+    bottom: 20%;
+  }
+  .whatIsDecoration__arrowsIcon {
+    right: 13%;
+    top: 495px;
+  }
+  .whatIsDecoration__yellowNineCornerDetailed {
+    right: 11%;
+    top: 304px;
+  }
+  .heroSection__decoration-blueOctagon {
+    top: 32px;
+  }
+  .contributorsDecoration__redCircle,
+  .contributorsDecoration__arrowsIcon,
+  .newsDecoration__blueOctagon {
+    display: none;
+  }
+
+  .contributorsDecoration__yellowHexagonDetailed {
+    top: 27px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .whyUsDecoration__arrowsIcon {
+    left: 75%;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .introductionDecoration__orangeOctagon {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .newsDecoration__arrowsIcon-footer {
+    display: none;
+  }
+  .newsDecoration__yellowNineCornerDetailed {
+    display: none;
+  }
+  .footerDecoration__hexagon {
+    display: block;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .heroSection__decoration-redCircle,
+  .heroSection__decoration-yellowHeptagon,
+  .whatIsDecoration__yellowNineCornerDetailed,
+  .whatIsDecoration__arrowsIcon,
+  .heroSection__decoration-blueOctagon,
+  .whatIsDecoration__orangeOctagon,
+  .heroSection__decoration-yellowOctagon,
+  .newsDecoration__arrowsIcon,
+  .newsDecoration__yellowOctagonDetailed {
+    display: none;
+  }
+  .heroSection__decoration-yellowHexagonDetailed {
+    bottom: 5%;
+  }
+  .heroSection__decoration-arrowsIcon {
+    bottom: 55px;
+    left: 18%;
+  }
+  .whyUsDecoration__yellowOctagonDetailed {
+    left: 58px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .whyUsDecoration__yellowHexagonConnected {
+    display: none;
+  }
+  .whyUsDecoration__yellowOctagon {
+    top: 10px;
+    right: 45px;
+  }
+  .testemonialDecoration__founderHexagons {
+    display: none;
+  }
+  .contributorsDecoration__yellowHexagonDetailed {
+    right: 235px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .whyUsDecoration__arrowsIcon {
+    left: 73%;
+    top: 122px;
+  }
+  .whyUsDecoration__yellowOctagonDetailed {
+    left: 36px;
+    top: 85px;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

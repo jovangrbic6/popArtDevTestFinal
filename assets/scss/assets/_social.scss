@@ -1,0 +1,31 @@
+.social {
+  padding: 10px;
+  position: fixed;
+  right: 36px;
+  top: 258px;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+.social a:not(:first-child) {
+  margin-top: 24px;
+}
+
+.social__icon {
+  transition: scale 0.2s ease;
+}
+
+.social__icon:hover {
+  scale: 130%;
+}
+
+@media screen and (max-width: 750px) {
+  .social {
+    display: none;
+  }
+  .social a:not(:first-child) {
+    margin-top: unset;
+  }
+}

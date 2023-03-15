@@ -1,0 +1,78 @@
+.testemonialSection {
+  padding: 424px 287px 0;
+  display: flex;
+}
+
+.testemonialSection__founder {
+  position: relative;
+  max-height: 458px;
+}
+
+.testemonialSection__image {
+  width: 458px;
+  height: 458px;
+}
+
+.testemonialSection__text {
+  margin-left: 40px;
+  width: 100%;
+  max-width: 779px;
+}
+
+.testemonialSection__text-heading p:last-child {
+  letter-spacing: -0.02em;
+}
+
+.testemonialSection__text-subtext {
+  display: flex;
+  margin-top: 40px;
+  letter-spacing: -0.04em;
+}
+
+.testemonialSection__text-subtext p {
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 1600px) {
+  .testemonialSection {
+    padding: 424px 143px 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .testemonialSection {
+    padding: 424px 90px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .testemonialSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 90px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .testemonialSection {
+    padding: 200px 50px 0;
+  }
+  .testemonialSection__image {
+    width: unset;
+    height: unset;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .testemonialSection {
+    padding: 200px 25px 0;
+  }
+  .testemonialSection__text-subtext div {
+    display: none;
+  }
+  .testemonialSection__text {
+    margin: 0;
+    text-align: center;
+  }
+}

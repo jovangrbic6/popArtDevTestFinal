@@ -1,0 +1,41 @@
+@use "./assets/reset";
+@use "./assets/header";
+@use "./assets/backgroundDecoration";
+@use "./assets/hero";
+@use "./assets/social";
+@use "./assets/whatIs";
+@use "./assets/whyUs";
+@use "./assets/testemonial";
+@use "./assets/contributors";
+@use "./assets/joinNetwork";
+@use "./assets/introduction";
+@use "./assets/news";
+@use "./assets/footer";
+@use "./assets/image";
+@import "./assets/root.scss";
+
+body {
+  background-color: $primary-color;
+}
+
+html.active {
+  overflow: hidden;
+}
+
+section,
+footer {
+  position: relative;
+}
+
+.white-text {
+  color: $white;
+}
+
+.yellow-text {
+  color: $yellow;
+}
+
+.char {
+  transform: translateY(300px);
+  transition: transform 0.5s;
+}

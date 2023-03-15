@@ -1,0 +1,121 @@
+@import './root';
+
+.heroSection {
+  padding: 278px 210px 268px;
+}
+
+.heroSection__content-text {
+  text-transform: uppercase;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.heroSection__sub {
+  position: relative;
+  margin-left: auto;
+  width: 100%;
+  max-width: 657px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  padding-bottom: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.heroSection__sub-text {
+  width: 100%;
+  letter-spacing: -0.04em;
+  transform: translateY(300px);
+  transition: transform 0.5s;
+}
+
+.heroSection__sub-button {
+  position: relative;
+  max-width: 217px;
+  height: 65px;
+  background: $yellow;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+  transform: translateY(200px);
+  transition: 0.3s all;
+}
+
+.heroSection__sub-button:hover {
+  background: $pink;
+  color: $white;
+}
+
+.heroSection__sub-button:hover:before {
+  border-right: 23px solid $pink;
+}
+
+.heroSection__sub-button:hover:after {
+  border-left: 23px solid $pink;
+}
+
+.heroSection__sub-button:after,
+.heroSection__sub-button:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: 0px;
+  background: $primary-color;
+  border-top: 33px transparent solid;
+  border-bottom: 33px transparent solid;
+  transition: 0.3s all;
+}
+
+.heroSection__sub-button:before {
+  left: 0;
+  border-right: 23px $yellow solid;
+}
+.heroSection__sub-button:after {
+  right: 0;
+  border-left: 23px $yellow solid;
+}
+
+@media screen and (max-width: 1600px) {
+  .heroSection {
+    padding: 278px 105px 268px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .heroSection {
+    padding: 278px 50px 268px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .heroSection {
+    padding: 120px 50px 120px;
+  }
+  .heroSection__content {
+    text-align: center;
+  }
+  .heroSection__sub-text {
+    text-align: center;
+  }
+  .heroSection__sub {
+    align-items: center;
+  }
+  .heroSection__sub-button {
+    width: 217px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heroSection {
+    padding: 120px 25px 120px;
+  }
+}
+
+.whatIsDecoration__arrowsIconTest {
+  position: absolute;
+  right: 25%;
+  top: 431px;
+}
+
+.whatIsDecoration__arrowsIconTest img:not(:first-child) {
+  margin-left: -10px;
+}

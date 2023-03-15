@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "Aspergit";
+  src: url("./aspergit-webfont.woff") format("woff"),
+    url("aspergit-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("./aspergit_bold-webfont.woff2") format("woff2"),
+    url("./aspergit_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aspergit";
+  src: url("./aspergit_light-webfont.woff") format("woff"),
+    url("./aspergit_light-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "spartanblack";
+  src: url("spartan-black-webfont.woff2") format("woff2"),
+    url("spartan-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-bold-webfont.woff2") format("woff2"),
+    url("spartan-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-extrabold-webfont.woff2") format("woff2"),
+    url("spartan-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-extralight-webfont.woff2") format("woff2"),
+    url("spartan-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-light-webfont.woff2") format("woff2"),
+    url("spartan-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-medium-webfont.woff2") format("woff2"),
+    url("spartan-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-regular-webfont.woff2") format("woff2"),
+    url("spartan-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-semibold-webfont.woff2") format("woff2"),
+    url("spartan-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url("spartan-thin-webfont.woff2") format("woff2"),
+    url("spartan-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.aspergit-113-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 113px;
+  line-height: 132px;
+}
+
+.aspergit-94-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 94px;
+  line-height: 110px;
+}
+
+.aspergit-54-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 77px;
+}
+
+.aspergit-44-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.aspergit-30-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.aspergit-24-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.aspergit-18-700 {
+  font-family: "Aspergit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.spartan-30-300 {
+  font-family: "spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.spartan-28-300 {
+  font-family: "spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 1366px) {
+  .aspergit-113-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 132px;
+  }
+
+  .aspergit-94-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 100px;
+  }
+
+  .aspergit-54-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 77px;
+  }
+
+  .aspergit-44-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .aspergit-30-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .aspergit-24-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .aspergit-18-700 {
+    font-family: "Aspergit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .spartan-30-300 {
+    font-family: "spartan";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  .spartan-28-300 {
+    font-family: "spartan";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aspergit-54-700 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .aspergit-44-700 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  .spartan-30-300 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aspergit-113-700 {
+    font-size: 52px;
+    line-height: 80px;
+  }
+  .aspergit-94-700 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+  .spartan-28-300 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .aspergit-113-700 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+  .aspergit-94-700 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+
+  .aspergit-44-700 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .spartan-30-300 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .spartan-28-300 {
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
